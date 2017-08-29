@@ -1,0 +1,50 @@
+body {
+}
+
+#mainNavi {
+    background-color: #bafdff;
+}
+
+#mainNavi > ul > li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#mainAnschrift {
+    text-align: center;
+    font-size: small;
+    padding: 5px 0 0 0;
+}
+
+#lebenslauf {
+    text-align: left;
+    line-height: 1.4;
+    width: 83%;
+    padding: 15px 0 15px 300px;
+}
+
+#Ausbildung {
+    text-align: left;
+    padding: 15px 0 15px 0;
+    width: 172%;
+    line-height: 1.4;
+}
+
+#Praktikum {
+    text-align: left;
+    padding: 15px 0 15px 0;
+    width: 310%;
+    line-height: 1.4;
+}
+
+#mainKenntnisse {
+    text-align: left;
+    padding: 5px 0 0 263px;
+    line-height: 1.4;
+}
+#mainHobbys {
+    text-align: left;
+    padding: 1px 0 0 263px;
+    line-height: 1.4;
+}
