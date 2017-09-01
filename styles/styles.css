@@ -15,36 +15,41 @@ body {
     text-align: center;
     font-size: small;
     padding: 5px 0 0 0;
+    min-width: 304px;
 }
 
-#lebenslauf {
+.primaryTable {
     text-align: left;
+    padding: 15px 0 15px 0px;
     line-height: 1.4;
-    width: 83%;
-    padding: 15px 0 15px 300px;
 }
 
-#Ausbildung {
+.primaryTable tr td:first-of-type {
+    min-width: 220px;
+}
+
+.secondaryTable {
     text-align: left;
     padding: 15px 0 15px 0;
-    width: 172%;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
-#Praktikum {
-    text-align: left;
-    padding: 15px 0 15px 0;
-    width: 310%;
-    line-height: 1.4;
+#weiteres {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#mainKenntnisse {
-    text-align: left;
-    padding: 5px 0 0 263px;
-    line-height: 1.4;
+#weiteres > div {
+    padding: 15px;
 }
-#mainHobbys {
-    text-align: left;
-    padding: 1px 0 0 263px;
-    line-height: 1.4;
+
+.iconList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconList img{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+
 }
