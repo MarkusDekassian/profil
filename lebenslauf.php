@@ -12,32 +12,42 @@
 
 
 
-    <table id="lebenslauf">
+    <table id="lebenslauf" class="primaryTable">
         <tr>
-            <td><img src="Platzhalter.jpg" width="140" height="250"></td>
-            <th>Persönliche Daten</th>
-        </tr>
-        <tr>
-            <td>Geburtsdatum:</td>
-            <td>28.02.1996</td>
-        </tr>
-        <tr>
-            <td>Geburtsort:</td>
-            <td>Prien am Chiemsee</td>
-        </tr>
-        <tr>
-            <td>Familienstand:</td>
-            <td>ledig</td>
-        </tr>
-        <tr>
-            <td>Staatsangehörigkeit:</td>
-            <td>Deutsch</td>
+            <td><img src="http://via.placeholder.com/140x250" width="140" height="250"></td>
+
+            <td>
+                <table class="secondaryTable">
+                    <tr>
+                        <th>Persönliche Daten</th>
+
+                    </tr>
+                    <tr>
+                        <td>Geburtsdatum:</td>
+                        <td>28.02.1996</td>
+                    </tr>
+                    <tr>
+                        <td>Geburtsort:</td>
+                        <td>Prien am Chiemsee</td>
+                    </tr>
+                    <tr>
+                        <td>Familienstand:</td>
+                        <td>ledig</td>
+                    </tr>
+                    <tr>
+                        <td>Staatsangehörigkeit:</td>
+                        <td>Deutsch</td>
+                    </tr>
+                </table>
+
+            </td>
+
         </tr>
     </table>
     <hr>
 
 
-    <table id="Ausbildung">
+    <table id="Ausbildung" class="primaryTable">
         <tr>
             <td></td>
             <th>Beruflicher Werdegang</th>
@@ -79,7 +89,7 @@
     <hr>
 
 
-    <table id="Praktikum">
+    <table id="Praktikum" class="primaryTable">
     <tr>
         <td></td>
         <th>Praktikas</th>
@@ -100,8 +110,11 @@
 </table>
 <hr>
 
-<?php include 'components/Kenntnisse.php';?>
-<?php include 'components/Hobbys.php';?>
+<div id="weiteres">
+    <?php include 'components/Kenntnisse.php';?>
+    <?php include 'components/Hobbys.php';?>
+</div>
+
 <hr>
 
 </html>
