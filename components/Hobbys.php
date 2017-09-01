@@ -1,7 +1,8 @@
 <div id="mainHobbys" class="Hobbys">
-    <ul><b>Hobbys</b>
-        <li>Musik</li>
-        <li>Sport</li>
-        <li>Videospiele</li>
-    </ul>
+    <b>Hobbys</b>
+    <div class="iconList">
+        <img src="assets/icon-music.png" alt="Musik">
+        <img src="assets/icon-sport.jpeg" alt="Sport">
+        <img src="assets/icon-games.png" alt="Videospiele">
+    </div>
 </div>
